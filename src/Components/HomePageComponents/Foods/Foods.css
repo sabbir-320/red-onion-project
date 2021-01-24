@@ -1,0 +1,27 @@
+img{
+    width: 80%;
+}
+.card{
+    border: none;
+}
+.btn-style{
+    margin-bottom: 20px;
+}
+.btn-style button{
+    border: none;
+    background: none;
+    margin: 0px 5px;
+}
+.btn-style button:hover{
+    color: #F91944;
+    border-bottom: 2px solid #F91944;
+}
+.trans-style{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}

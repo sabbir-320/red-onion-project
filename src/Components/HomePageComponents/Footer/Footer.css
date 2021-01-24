@@ -1,0 +1,17 @@
+.footer-container{
+    background-color: #191919;
+    width: 100%;
+    height: 550px;
+}
+.list-style li{
+    list-style-type: none; 
+    color: #fff;
+}
+.list-style2 li{
+    list-style-type: none;
+    color: #fff;
+    margin:0Px 20px;
+}
+small{
+    color: #ffffff
+}
