@@ -1,23 +1,32 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { UserContext } from '../../App';
 
-export default function CartInfo({ item }) {
-    const [foodId, setFoodId] = useContext(UserContext)
-    const [showProduct, setShowProduct] = useState({})
+import { foodsMenu } from '../../FakeData/FakeData';
 
-    useEffect(() => {
-        if (foodId === item.id) {
-            setShowProduct(item)
-        }
-    }, [item]);
-    console.log(showProduct.length);
-    const { img, name, description, price, id } = showProduct;
+export default function CartInfo() {
+    const [foodId, setFoodId] = useContext(UserContext)
+
+    const [showProduct, setShowProduct] = useState({})
+    console.log(foodId);
+    
+
+    // console.log(foodId);
+    // const pd = {}
+    // const product = foodsMenu.find(product => product.id === foodId)
+
+    
+    
+    // console.log(product);
+    
+
+
+
+
+  
+    // const { img, name, description, price, id } = showProduct;
     return (
         <div className="row">
             <div>
-                <img src={img} alt="" />
-                <h1>{name}</h1>
-                <p>{price}</p>
             </div>
         </div>
     )

@@ -9,9 +9,10 @@ import Home from "./pages/Home";
 
 export const UserContext = createContext();
 export default function App() {
+
   const [foodId, setFoodId] = useState({})
 
-  console.log("name", foodId)
+  console.log("App.js", foodId)
   return (
     <UserContext.Provider value={[foodId, setFoodId]}>
       <Router>

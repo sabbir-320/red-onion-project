@@ -13,7 +13,7 @@ export default function BreakfastInfo({ breakfastInfo }) {
         setTransform(false)
     }
     const handleId = () => {
-        setFoodId(id)
+        setFoodId({...foodId, id})
     }
     return (
         <div className="col-md-4">

@@ -5,9 +5,8 @@ import image from './bannerbackground.png'
 
 export default function Banner() {
     const [food, setFood] = useContext(UserContext)
-console.log(food);
     return (
-        <div className="banner-container" style={{backgroundImage: `url(${image})`}}></div>
+        <div className="banner-container" style={{ backgroundImage: `url(${image})` }}></div>
 
     )
 }
